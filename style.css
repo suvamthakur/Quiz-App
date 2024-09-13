@@ -22,13 +22,13 @@
 }
 
 .quiz-img-home {
-  width: 550px;
+  width: 300px;
   margin-bottom: 5%;
 }
 
 .start-btn {
-  padding: 10px 25px;
-  font-size: 1.5rem;
+  padding: 8px 20px;
+  font-size: 1.2rem;
   background-color: #35bd3a;
   border-radius: 5px;
   color: white;
@@ -39,7 +39,7 @@
 
 .best-score {
   margin-top: 80px;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   font-weight: 500;
 }
 
@@ -50,7 +50,6 @@
 }
 
 .quiz-container {
-  font-size: 1.2rem;
   font-weight: 500;
 }
 
@@ -60,28 +59,26 @@
 }
 
 .question-no {
-  width: 80px;
+  width: 70px;
   margin-left: auto;
   text-align: center;
   padding: 6px 0;
-  font-size: 1.3rem;
   border-radius: 5px;
   background-color: #fec33d;
 }
 
 .question-box {
-  padding: 25px;
+  padding: 18px;
   background-color: #f5f5f5;
   border-radius: 10px;
   margin: 12px 0;
 }
 
 .timer {
-  width: 90px;
+  width: 80px;
   text-align: center;
   margin-left: auto;
   padding: 6px 0;
-  font-size: 1.3rem;
   border-radius: 5px;
   color: white;
   background-color: #35bd3a;
@@ -91,9 +88,9 @@
 
 .answer-container {
   background-color: #f5f5f5;
-  padding: 12px 25px;
+  padding: 8px 18px;
   border-radius: 10px;
-  margin: 25px 0;
+  margin: 20px 0;
 }
 
 .answer-list {
@@ -103,8 +100,8 @@
 .answer-list li {
   border: 2px solid #d9d9d9;
   border-radius: 5px;
-  padding: 12px 15px;
-  margin: 15px 0;
+  padding: 10px;
+  margin: 12px 0;
   cursor: pointer;
 }
 
@@ -119,7 +116,7 @@
 .next-btn {
   border: none;
   background-color: transparent;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 500;
   color: #01ab08;
   cursor: pointer;
@@ -142,20 +139,20 @@
 }
 
 .quiz-img-result {
-  width: 200px;
+  width: 130px;
 }
 
 .heading h1 {
-  font-size: 1.7rem;
+  font-size: 1.2rem;
   font-weight: 600;
 }
 
 .score-bar-container {
   display: flex;
   margin: auto;
-  margin-top: 80px;
+  margin-top: 60px;
   width: 500px;
-  height: 50px;
+  height: 40px;
 }
 .score-bar-correct {
   width: 70%;
@@ -173,7 +170,7 @@
 }
 
 .final-score {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 500;
   margin-top: 8px;
 }
@@ -182,13 +179,13 @@
   margin-top: 10%;
 }
 .final-text {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 500;
 }
 .retry-btn {
   margin-top: 20px;
   padding: 8px 35px;
-  font-size: 1.4rem;
+  font-size: 1.1rem;
   background-color: #35bd3a;
   border-radius: 5px;
   color: white;

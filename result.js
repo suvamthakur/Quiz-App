@@ -6,6 +6,9 @@ const finalText = document.querySelector(".final-text");
 const totalScore = parseInt(localStorage.getItem("correctAnswer")) || 0;
 const qeustionNo = parseInt(localStorage.getItem("currentQuestion"));
 
+score.innerHTML = totalScore;
+totalQuestions.innerHTML = qeustionNo;
+
 // Get best score
 const highestScore = localStorage.getItem("highestScore") || 0;
 const highestScoreTotalQuestion =
@@ -26,8 +29,12 @@ if (scorePercentage > (highestScore / highestScoreTotalQuestion) * 100) {
   localStorage.setItem("highestScoreTotalQuestions", qeustionNo);
 }
 
-score.innerHTML = totalScore;
-totalQuestions.innerHTML = qeustionNo;
+// Progess bar
+const firstScoreBar = document.querySelector(".score-bar-correct");
+const secondScoreBar = document.querySelector(".score-bar-wrong");
+
+firstScoreBar.style.width = scorePercentage + "%";
+secondScoreBar.style.width = 100 - scorePercentage + "%";
 
 if (scorePercentage > 60) {
   finalText.innerHTML = "Keep learning, you have a good score!";
